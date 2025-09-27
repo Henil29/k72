@@ -1,0 +1,19 @@
+@import "tailwindcss";
+
+@font-face {
+  font-family: font1;
+  src: url(./assets/fonts/Lausanne-300.woff2);
+}
+
+@font-face {
+  font-family: font2;
+  src: url(./assets/fonts/Lausanne-700.woff2);
+}
+
+body {
+  background-color: #111;
+}
+
+.text-video video{
+  border-radius: 20px;
+}
