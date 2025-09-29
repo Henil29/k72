@@ -1,5 +1,5 @@
 import React from 'react'
-import Video from '../components/home/video'
+import Video from '../components/home/Video.jsx'
 import HomeHeroText from '../components/home/HomeHeroText'
 import HomeBottomText from '../components/home/HomeBottomText'
 import logo from '../assets/logo.svg'
