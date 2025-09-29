@@ -7,13 +7,31 @@
 
 @font-face {
   font-family: font2;
-  src: url(./assets/fonts/Lausanne-700.woff2);
+  src: url(./assets/fonts/Lausanne-500.woff2);
 }
 
 body {
-  background-color: #111;
+  /* background-color: #111; */
 }
 
 .text-video video{
   border-radius: 20px;
+}
+.moveX{
+  animation: moveAnimation 8s linear infinite;
+}
+@keyframes moveAnimation {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-100%);
+  }
+}
+.moveLink{
+  opacity: 0;
+  transition: all 0.3s ease-in-out;
+}
+.link:hover .moveLink{
+  opacity: 1;
 }

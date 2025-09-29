@@ -1,24 +1,19 @@
-import React from 'react'
 import { Route, Routes, Link } from 'react-router-dom'
 import Home from './pages/Home'
 import Agence from './pages/Agence'
 import Projects from './pages/Projects'
+import Navbar from './components/Navigation/Navbar'
+import FullScreenNav from './components/Navigation/FullScreenNav'
 
 const App = () => {
   return (
-    <div className='text-white'>
-      {/* just for testing navigation */}
-      {/* <Link to="/">Home</Link>
-      <Link to="/agence">Agence</Link>
-      <Link to="/projects">Projects</Link> */}
-
+    <div>
+      <Navbar/>
+      <FullScreenNav/>
       <Routes>
-        {/* Define your routes here */}
         <Route path="/" element={<Home />} />
         <Route path="/agence" element={<Agence />} />
         <Route path="/projects" element={<Projects />} />
-
-        {/* for undefined routes */}
         <Route path="*" element={<h1>Page Not Found</h1>} />
       </Routes>
     </div>
