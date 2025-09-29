@@ -10,10 +10,6 @@
   src: url(./assets/fonts/Lausanne-500.woff2);
 }
 
-body {
-  /* background-color: #111; */
-}
-
 .text-video video{
   border-radius: 20px;
 }

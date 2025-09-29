@@ -72,7 +72,7 @@ const FullScreenNav = () => {
     }, [navOpen])
 
     return (
-        <div ref={fullScreenRef} id='fullscreennav' className='fullscreennav hidden text-white overflow-hidden h-screen w-full z-50 absolute'>
+        <div ref={fullScreenRef} id='fullscreennav' className='fullscreennav hidden text-white bg-neutral-900 overflow-hidden h-screen w-full z-50 absolute'>
             <div className='h-screen w-full fixed'>
                 <div className='h-full w-full flex'>
                     <div className='stairing h-full w-1/5 bg-black'></div>
@@ -100,7 +100,7 @@ const FullScreenNav = () => {
                     </div>
 
                 </div>
-                <div className=' py-12'>
+                <div className='lg:py-18 md:py-24 py-36'>
                     <div className='link origin-top relative border-t-1 border-white cursor-pointer' onClick={() => {window.location.href = '/projects' }}>
                         <h1 className='font-[font2] text-5xl lg:text-[7vw] text-center lg:leading-[0.8] lg:pt-10 pt-3 uppercase'>Projets</h1>
                         <div className='moveLink absolute text-black flex top-0 bg-[#D3FD50]'>

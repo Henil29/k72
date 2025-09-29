@@ -49,15 +49,15 @@ const Agence = () => {
   return (
     <div className='bg-black'>
       <div className='section1 py-1 text-white'>
-      <div ref={imageDivRef} className='absolute overflow-hidden h-[18vw] rounded-3xl w-[14vw] top-50 left-[30vw]'>
+      <div ref={imageDivRef} className='absolute overflow-hidden lg:h-[18vw] lg:w-[14vw] h-[100px] w-[100px] lg:rounded-3xl rounded-4xl top-50 left-[30vw]'>
         <img ref={imageRef} className='h-full w-full object-cover' src={img1} alt="" />
       </div>
       <div className='relative font-[font2]'>
-        <div className='mt-[52vh]'>
-          <h1 className='text-[18vw] text-center uppercase leading-[18vw]'>Soixan7e <br />Douze</h1>
+        <div className='lg:mt-[52vh] mt-[28vh]'>
+          <h1 className='lg:text-[18vw] text-7xl text-center uppercase leading-[18vw]'>Soixan7e <br />Douze</h1>
         </div>
         <div className='pl-[45%] mt-20'>
-          <p className='text-5xl'> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Notre curiosité nourrit notre créativité. On reste humbles et on dit non aux gros egos, même le vôtre. Une marque est vivante. Elle a des valeurs, une personnalité, une histoire. Si on oublie ça, on peut faire de bons chiffres à court terme, mais on la tue à long terme. C’est pour ça qu’on s’engage à donner de la perspective, pour bâtir des marques influentes.</p>
+          <p className='lg:text-5xl text-3xl'> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Notre curiosité nourrit notre créativité. On reste humbles et on dit non aux gros egos, même le vôtre. Une marque est vivante. Elle a des valeurs, une personnalité, une histoire. Si on oublie ça, on peut faire de bons chiffres à court terme, mais on la tue à long terme. C’est pour ça qu’on s’engage à donner de la perspective, pour bâtir des marques influentes.</p>
         </div>
       </div>
     </div>
