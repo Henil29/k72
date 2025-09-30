@@ -9,7 +9,12 @@
   font-family: font2;
   src: url(./assets/fonts/Lausanne-500.woff2);
 }
-
+body, #root, .page-wrapper {
+  background-color: #1a1a1a; /* or your app's background color */
+}
+.project{
+  background-color: white;
+}
 .text-video video{
   border-radius: 20px;
 }
