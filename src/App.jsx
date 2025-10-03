@@ -6,6 +6,8 @@ import Agence from './pages/Agence';
 import Projects from './pages/Projects';
 import Navbar from './components/Navigation/Navbar';
 import FullScreenNav from './components/Navigation/FullScreenNav';
+import Contact from './pages/Contact';
+import Blogs from './pages/Blogs';
 
 const AnimatedPage = ({ children }) => {
   return <div>{children}</div>;
@@ -45,6 +47,8 @@ const App = () => {
           <Route path="/" element={<AnimatedPage><Home /></AnimatedPage>} />
           <Route path="/agence" element={<AnimatedPage><Agence /></AnimatedPage>} />
           <Route path="/projects" element={<AnimatedPage><Projects /></AnimatedPage>} />
+          <Route path="/blogs" element={<AnimatedPage><Blogs /></AnimatedPage>} />
+          <Route path='/contact' element={<AnimatedPage><Contact /></AnimatedPage>} />
           <Route path="*" element={<h1>Page Not Found</h1>} />
         </Routes>
       </div>
